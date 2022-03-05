@@ -13,3 +13,4 @@ Clase 1
 ## 7)Documentacion (interna , externa  ,manuales)
 ## 8)Mantenimiento 
 
+ver 7 primeros videos https://www.youtube.com/watch?v=FvibfpSVFBw&list=PLAzlSdU-KYwXllXcUCW-BylQZemcDV798
