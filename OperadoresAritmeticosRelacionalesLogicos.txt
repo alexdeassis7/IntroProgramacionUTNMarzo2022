@@ -1,0 +1,76 @@
+  
+                                 OPERADORES
+
+
+Operadores Aritmeticos : nos permites realizar operaciones matematicas con variables y constantes
+                         ejemplo operadores : + , - , * , / 
+
+operando1 (operador) operando2 
+variable1      +     constante1 
+    5          +       50    = 55
+
+Operadores Relacionales : -Los utilizamos para establecer una relacion entre dos valores 
+                          - compara estos valores entre si y porduce un resultado de verdadero o falso 
+                          - comparan dos valores del mismo tipo 
+                          - tienen el mimso nivel de prioridad en su evaluacion
+                          - los operadores relacionales tienen menor prioridad que los aritmeticos 
+
+> mayor que 
+< menor que 
+>= mayor o igual que 
+<= menor o igual que 
+!= distinto que
+== igual   
+
+ejercicio: 
+Si a = 10 ,  b = 20 y c = 30 
+
+a + b > c   -->>  30 > 30  Falso  
+a - b < c   -->> -10 < 30  Verdadero
+a - b == c  -->> -10 == 30 falso  
+a * b != c  -->> 200 != 30 Verdadero
+
+                                            OPERADORES LOGICOS
+-Estos operadores se utilizan  para establecer relaciones entre valores logicos 
+-Estos valores pueden ser resultado de una expresion relacional
+-tablas de la verdad
+-Ejemplo de operadores logicos AND - OR - NOT
+
+ Ejercicios :
+Si a = 10 ,  b = 20 y c = 30 
+(a < b) AND ( b < c )
+   V    AND     V
+     Verdadero 
+     
+
+Prioridad de los operadores Lógicos 
+1 not
+2 And
+3 Or
+
+Prioridad de los Operadores en General 
+1) ()
+2) * , / ,NOT
+3) + , - , AND
+4) <, > ,>= ,<=, != , OR
+
+Ejemplos : 
+Si a = 10 , b = 12 , c = 13  y d = 10
+
+ejercicio 1)
+((a > b ) OR (a < c)) AND ((a == c) OR (a >= b))
+   ( F    OR    V  )  AND  (   F    OR   F )
+           V          AND          F
+                      FALSO
+
+ejercicio 2)
+((a >= b ) OR (a < d)) AND ((a >= d) OR (c > d))
+  (  F     OR    F   ) AND (   V     OR    V   )
+           F           AND           V
+                       Falso
+
+ejercicio 3)
+NOT( a == c ) and ( c > b) 
+NOT  (  F )   and    V
+        V     and    V
+          Verdadero
