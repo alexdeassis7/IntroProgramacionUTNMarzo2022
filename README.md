@@ -41,17 +41,21 @@ valores de sus catetos.
 
 Ejercicios de aplicación
 
-## 1) Implementar un algoritmo que permita ingresar dos números enteros 
+## 1)
+Implementar un algoritmo que permita ingresar dos números enteros 
 por teclado y que determine si son divisibles.
 
-## 2) Implementar un algoritmo que permita ingresar tres números enteros 
+## 2)
+Implementar un algoritmo que permita ingresar tres números enteros 
 por teclado y que determine cuál es el mayor de ellos
 
-## 3) Implementar un algoritmo que permita ingresar dos números enteros 
+## 3) 
+Implementar un algoritmo que permita ingresar dos números enteros 
 por teclado. Luego, el usuario debe elegir si desea mostrar la suma o 
 multiplicación de ambos números
 
 
-## 4) Implementar un algoritmo que permita ingresar dos números enteros 
+## 4)
+Implementar un algoritmo que permita ingresar dos números enteros 
 por teclado y que determine si fueron ingresados en orden creciente o 
 decreciente.
