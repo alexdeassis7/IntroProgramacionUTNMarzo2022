@@ -35,3 +35,23 @@ se ingresan por teclado.
 Implementar un algoritmo que permita calcular la hipotenusa de un 
 triángulo rectángulo teniendo en cuenta que se ingresan por teclado los 
 valores de sus catetos.
+
+
+# Tarea Clase 3 Ejercicios Estructuras condicionales:
+
+Ejercicios de aplicación
+
+## 1) Implementar un algoritmo que permita ingresar dos números enteros 
+por teclado y que determine si son divisibles.
+
+## 2) Implementar un algoritmo que permita ingresar tres números enteros 
+por teclado y que determine cuál es el mayor de ellos
+
+## 3) Implementar un algoritmo que permita ingresar dos números enteros 
+por teclado. Luego, el usuario debe elegir si desea mostrar la suma o 
+multiplicación de ambos números
+
+
+## 4) Implementar un algoritmo que permita ingresar dos números enteros 
+por teclado y que determine si fueron ingresados en orden creciente o 
+decreciente.
