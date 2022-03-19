@@ -1,0 +1,25 @@
+algoritmo calculo_compra_articulo_descuento
+var
+	entero: cantidad
+	real: precio, descuento, subtotal, totalCompra
+inicio
+	mostrar("Cálculo de la compra de un artículo")
+	mostrar("Ingrese el precio del artículo")
+	leer(precio)
+	mostrar("Ingrese la cantidad de artículos a comprar")
+	leer(cantidad)
+	subtotal = precio * cantidad
+	descuento = 0
+	
+	si subtotal > 1000 entonces
+		descuento = subtotal * 0.10
+	fin-si
+	
+	totalCompra  subtotal - descuento
+	
+	si descuento > 0 entonces
+		mostrar("Se aplicó un descuento de ", descuento)
+	fin-si
+
+	mostrar("El valor final de la compra es: ", totalCompra)
+fin
