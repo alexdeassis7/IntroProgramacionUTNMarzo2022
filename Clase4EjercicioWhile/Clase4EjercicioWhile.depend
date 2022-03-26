@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1648304266 source:c:\users\alex\documents\introprogramacionutnmarzo2022\clase4ejerciciowhile\main.c
+	<stdio.h>
+	<stdlib.h>
+
