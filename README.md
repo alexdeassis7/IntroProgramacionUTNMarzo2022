@@ -59,3 +59,6 @@ multiplicación de ambos números
 Implementar un algoritmo que permita ingresar dos números enteros 
 por teclado y que determine si fueron ingresados en orden creciente o 
 decreciente.
+
+# Tarea Ejercicios Repetitivos Clase4 
+Resolver con Estructuras Repetitivas los Ejercicios del 1 al 7 del documento "EjercicioEstructurasRepetitivas"  
