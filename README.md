@@ -62,3 +62,6 @@ decreciente.
 
 # Tarea Ejercicios Repetitivos Clase4 
 Resolver con Estructuras Repetitivas los Ejercicios del 1 al 7 del documento "EjercicioEstructurasRepetitivas"  
+
+# Tarea Ejercicios Arrays Clase5 
+Resolver los ejercicios del documento Ejercicios Arrays Programacion (1) (3) (1).docx
