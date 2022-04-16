@@ -69,3 +69,9 @@ pagina 185 operador ternario
 capitulo 9 arrays pagina 314 a la pagina 320
 
 Resolver: los ejercicios del documento Ejercicios Arrays Programacion (1) (3) (1).docx
+
+# Tarea Clase6 
+Crear 3 Funciones , una que multiplique dos numeros enteros , una que reste dos numero de tipo float y otra que divida dos numero de tipo float  (tener en cuenta que no es posible dividir por cero )
+los numero deben ser ingresados por el usuario 
+leer las siguiente paginas del libro 236 a 250
+
