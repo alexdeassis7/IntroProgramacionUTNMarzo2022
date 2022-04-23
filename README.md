@@ -75,3 +75,13 @@ Crear 3 Funciones , una que multiplique dos numeros enteros , una que reste dos 
 los numero deben ser ingresados por el usuario 
 leer las siguiente paginas del libro 236 a 250
 
+# Tarea Clase 7 estudiar los siguientes temas para el examen PRACTICO del dia 30/4/2022
+ ### Realizar Test Teórico "Testintroducción a la programacion C.docx"
+ ### Realizar Practica pre Parcial "ExamenPreParcialntroducción a la Programación.docx"
+ ### variables , constantes , operadores ( aritmeticos , relacionales y logicos ) capitulo 3 y 4
+ ### estruturas condicionales (if, if else, switch) capitulo 5
+ ### estructuras repetitivas (while , do while , for) capitulo 6
+ ### arrays capitulo 9
+ ### sub-algoritmos (funciones y procedimientos) capitulo 7
+ ### variables locales y globales capitulo 7
+ 
