@@ -4,11 +4,18 @@
 #include <math.h>
 
 //prototypo de la funcion suma
-float suma(float numero1,float numero2);
-float multiplicar(float numeroUno, float numeroDos);
-float restar(float numeroUno,float numeroDos);
-float dividir(float numeroUno,float numeroDos);
+float suma();
+float multiplicar();
+float restar();
+float dividir();
 void mostrarMensajeErrorDividir();
+
+/**Scope o alcance de una variable
+variable local : Solo "vive" dentro del subalgoritmo donde fue definida
+
+variable Global : es una variable que peude ser utilizada dentro de todos los sub-algoritmos de la app
+  */
+float n1 = 0, n2 = 0; //una variable global debe ser definida fuera de todo sub algoritmo
 
 int main()//funcion principal que ejecuta el SO , no recibe ningun parametro y retorna un int
 {
@@ -22,7 +29,7 @@ int main()//funcion principal que ejecuta el SO , no recibe ningun parametro y r
     printf(" pow(3,3)= %f\n",pow(3,3));
 
 
-    float n1 = 0, n2 = 0, resultado = 0;
+    float resultado = 0;
     int opcionIngresada = 0, bandera  = 0;
     //solicito dos numeros al user desde mi algoritmo principal
     printf("\ningrese el numero 1 \n");
@@ -51,18 +58,18 @@ int main()//funcion principal que ejecuta el SO , no recibe ningun parametro y r
     {
     case 1 :
         /**invocamos a la funcion sumar*/
-        printf("El resultado de la suma es : %f\n", suma(n1, n2));
+        printf("El resultado de la suma es : %f\n", suma());
         break;
     case 2 :
         /**invocamos a la funcion restar*/
-        printf("El resultado de la resta es : %f\n",restar(n1, n2));
+        printf("El resultado de la resta es : %f\n",restar());
         break;
     case 3 :
         /**invocamos a la funcion multiplicar*/
-        printf("El resultado de la multiplicacion es : %f\n",multiplicar(n1, n2));
+        printf("El resultado de la multiplicacion es : %f\n",multiplicar());
         break;
     case 4 :
-        resultado = dividir(n1, n2);
+        resultado = dividir();
         /**invocamos a la funcion dividir*/
         if(resultado != 0)
         {
@@ -87,11 +94,11 @@ int main()//funcion principal que ejecuta el SO , no recibe ningun parametro y r
 /**tipoDeValorDeRetorno nombreDeLaFuncion (tipoParametro1 Nombre1 ,tipoParametroDos nombre2 ,tipoParametroN ,nombreN )*/
 //numero1 , numero2 y resultado son variables locales a la funcion suma ,osea que solo "viven" en memoria RAM
 //mistras la funcion suma esta en ejecucion
-float suma(float numero1,float numero2)
+float suma()
 {
     /**cuerpo de la funcion*/
     float resultado = 0 ;
-    resultado = numero1 + numero2 ;
+    resultado = n1 + n2 ;
     /**retornamo el dato de tipo float*/
     return resultado;
 }
@@ -99,30 +106,30 @@ float suma(float numero1,float numero2)
 /**Crear 3 Funciones :
 
  a)una que multiplique dos numeros float ,*/
-float multiplicar(float numeroUno, float numeroDos)
+float multiplicar()
 {
     /**retornamos el dato de tipo int*/
-    return numeroUno * numeroDos ;
+    return n1 * n2 ;
 }
 
 /**b)una funcion que reste dos numero de tipo float*/
-float restar(float numeroUno,float numeroDos)
+float restar()
 {
-    return numeroUno - numeroDos;
+    return n1 - n2;
 }
 
 /**c)funcion que divida dos numero de tipo float
   (tener en cuenta que no es posible dividir por cero )*/
-float dividir(float numeroUno,float numeroDos)
+float dividir()
 {
-    if(numeroDos == 0)
+    if(n2 == 0)
     {
         mostrarMensajeErrorDividir();
         return 0;
     }
     else
     {
-        return numeroUno/ numeroDos;
+        return n1/ n2;
     }
 }
 

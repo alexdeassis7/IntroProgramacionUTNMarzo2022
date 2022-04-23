@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1650724820 source:c:\users\alex\documents\introprogramacionutnmarzo2022\clase6introfunciones\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

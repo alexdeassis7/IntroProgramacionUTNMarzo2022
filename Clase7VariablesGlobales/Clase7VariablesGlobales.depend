@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1650729462 source:c:\users\alex\documents\introprogramacionutnmarzo2022\clase7variablesglobales\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
