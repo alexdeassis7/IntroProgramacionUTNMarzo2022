@@ -76,6 +76,7 @@ los numero deben ser ingresados por el usuario
 leer las siguiente paginas del libro 236 a 250
 
 # Tarea Clase 7 estudiar los siguientes temas para el examen PRACTICO del dia 30/4/2022
+ validar que el sub-algoritmo void solicitarDatos() del proyecto "Clase7Ejercicios" no permita el ingreso de numero mayores a 10 ni menores a 0
  ### Realizar Test Teórico "Testintroducción a la programacion C.docx"
  ### Realizar Practica pre Parcial "ExamenPreParcialntroducción a la Programación.docx"
  ### variables , constantes , operadores ( aritmeticos , relacionales y logicos ) capitulo 3 y 4
